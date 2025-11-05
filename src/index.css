@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'InterTight';
+  src: url('/InterTight-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'extrabold';
+  src: url('/InterTight-ExtraBold.ttf') format('truetype');
+ 
+}
+
+
+* {
+  font-family: 'InterTight', sans-serif;
+  letter-spacing: 0.04em;
+}
